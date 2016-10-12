@@ -1,19 +1,19 @@
 body {
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
-	background-color: #DFF1F2;
+	background-color: #647699;
 	/*
 	background: url("../images/wave-bkgd.png") no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
 	background-size: cover;
 	*/
-	color: #5A6A6B;
+	color: white;
 }
 
 a {
 	text-decoration: none;
-	color: #9EB4B5;
+	color: #d0d0d0;
 	-webkit-transition: all .3s ease-in-out;
  	-moz-transition: all .3s ease-in-out;
  	-ms-transition: all .3s ease-in-out;
