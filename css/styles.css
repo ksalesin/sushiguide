@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #DFF1F2;
+	/*
+	background: url("../images/wave-bkgd.png") no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	*/
+	color: #5A6A6B;
+}
+
+a {
+	text-decoration: none;
+	color: #9EB4B5;
+	-webkit-transition: all .3s ease-in-out;
+ 	-moz-transition: all .3s ease-in-out;
+ 	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+#nav {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	color: white;
+	background-color: rgba(20, 20, 20, 1.0);
+	list-style-type: none;
+	text-align: center;
+	z-index: 5;
+}
+
+#nav ul li {
+	display: inline-block;
+	font-size: 16pt;
+	padding: 10px 3%;
+}
+
+#header {
+	width: 100%;
+	height: 100vh;
+}
+
+#motto {
+	width: 100%;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 36pt;
+}
+
+#video {
+	padding: 30px 10px;
+	max-width: 640px;
+	margin: auto;
+}
+
+#badge {
+	width: 185px;
+	margin: auto;
+}
+
+#container {
+	height: auto;
+}
+
+#about {
+	max-width: 550px;
+	margin: auto;
+	padding: 30px 10px 0px 10px;
+	font-size: 16pt;
+	line-height: 18pt;
+}
+
+#screenshots {
+	max-width: 860px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.screenshot {
+	float: left;
+}
+
+.screenshot img {
+	max-width: 300px;
+	height: auto;
+}
+
+#presskit {
+	max-width: 550px;
+	margin: auto;
+	padding: 30px 10px 0px 10px;
+	clear: both;
+}
+
+#presskit h1 {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#presskit p {
+	font-size: 16pt;
+	line-height: 18pt;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	padding-top: 60px;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	clear: both;
+}
+
+/* Below from http://embedresponsively.com */
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
